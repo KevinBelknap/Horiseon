@@ -3,27 +3,27 @@
     padding: 0;
     margin: 0;
 }
-
+/* This is the background color for my body*/
 body {
     background-color: #d9dcd6;
 }
-
+/* This refers to the font, padding, background color and text color I used for my entire header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* This refers to how I want my h1 headings displayed and what size */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* This refers to the color I want for my h1 header */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* This is my header navigation which has my padding, margins, font, size and float defined */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +31,25 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* changed the semantics from div to nav */
+/*This is the header navigation list style type */
 .header nav ul {
     list-style-type: none;
 }
-/* this is my header for the navigation bar */
+/* this is defining how I want my navigation bar displayed and the font size */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*Text color and decoration */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*font size for paragraphs */
 p {
     font-size: 16px;
 }
-
+/*formatting my document properly with these elements that are included inside this class and include this photo which is seen at top of the screen  */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +58,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*indicates where I want this positioned - these are for images */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*indicates where I want this positioned - these are for images */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*defines certain attributes & where I want this positioned - these are for images inside my content class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*indicates where I want this positioned - these are for lead to cost images */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -114,12 +114,12 @@ p {
 .Media img {
     max-height: 200px;
 }
-
+/* same as above for H1 but for h2 headings */
 .Media h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*test test test */ 
+/*attributes for my footer like font, size, cetner text */ 
 .footer {
     padding: 30px;
     clear: both;
